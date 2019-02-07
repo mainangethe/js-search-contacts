@@ -1,0 +1,9 @@
+* { margin: 0; padding: 0; }
+
+html { font-family: 'Roboto', sans-serif; }
+h1, h2 { font-family: 'Oswald', sans-serif; }
+
+input {
+  padding: 8px 20px;
+  width: 300px;
+}

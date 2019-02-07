@@ -3,6 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Search Contacts</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    >
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:600|Roboto"
+      rel="stylesheet"
+    >
   </head>
   <body>
 
@@ -10,11 +18,15 @@
     <p class="functionality-clause">It will only find numbers for numbers
       I have saved in my array.</p>
 
-    <h2>These are the numbers I have saved currently: </h2>
+    <h2>Available Contacts:</h2>
+    <p>These are the numbers I have saved currently: </p>
     <ul id='availableContacts'></ul>
 
     <label for='searchField'>Search by Contact Name:</label>
-    <input type="text" id='searchField'>
+    <input
+      type="text"
+      id='searchField'
+    >
 
     <h2>Search Results</h2>
     <p id='searchResult'></p>
