@@ -14,28 +14,32 @@
   </head>
   <body>
 
-    <h1>A simple JS Search</h1>
-    <p class="functionality-clause">It will only find numbers for numbers
-      I have saved in my array.</p>
+    <section class="header">
+      <h1>A simple JS Search</h1>
+      <p class="functionality-clause">It will only find numbers for contacts
+        we have.</p>
+    </section>
+    
+    <section class="contacts">
+      <h2>Available Contacts:</h2>
+      <p>These are the numbers I have saved in our database currently: </p>
+      <table id='availableContacts'>
+        <tr>
+          <th> Full Name </th>
+        </tr>
+      </table>
+    </section>
 
-    <h2>Available Contacts:</h2>
-    <p>These are the numbers I have saved in our database currently: </p>
-    <table id='availableContacts'>
-      <tr>
-        <th> Full Name </th>
-      </tr>
-
-    </table>
-
-    <label for='searchField'>Search by Contact Name:</label>
-    <input
-      type="text"
-      id='searchField'
-    >
-    <button id='searchButton'> Search</button>
-
-    <h2>Search Results</h2>
-    <p id='searchResult'></p>
+    <section class = "search">
+      <label for='searchField'>Search by Contact Name:</label>
+      <input
+        type="text"
+        id='searchField'
+      >
+      <button id='searchButton'> Search</button>
+      <h2>Search Results</h2>
+      <p id='searchResult'></p>
+    </section>
 
     <script
       type="text/javascript"

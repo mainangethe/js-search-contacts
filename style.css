@@ -1,9 +1,74 @@
 * { margin: 0; padding: 0; }
 
-html { font-family: 'Roboto', sans-serif; }
+html {
+  font-family: 'Roboto', sans-serif; .
+  position: relative;
+  height: 100%;
+}
+
 h1, h2 { font-family: 'Oswald', sans-serif; }
+
+body{
+  margin: 50px;
+  position: relative;
+  top: 5%;
+  left: 35%;
+}
+
+section { margin: 30px; }
 
 input {
   padding: 8px 20px;
   width: 300px;
+}
+
+table { margin: 10px; }
+
+th, button {
+  background-color: hsl(344, 90%, 50%);
+  color: white;
+}
+th { height: 50px; }
+
+td, th {
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover { background-color: hsl(344, 50%, 95%); }
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: hsl(344, 50%, 95%);
+  color: hsl(344, 90%, 50%);
+  font-weight: bold;
+}
+
+.search-result-good {
+  background-color: hsl(134, 50%, 95%);
+  border-left: 5px solid hsl(134, 90%, 50%);
+  height: 20px;
+  padding: 25px 15px;
+  width: 400px;
+}
+
+.search-result-bad {
+  background-color: hsl(344, 50%, 95%);
+  border-left: 5px solid hsl(344, 90%, 50%);
+  height: 20px;
+  padding: 25px 15px;
+  width: 400px;
 }

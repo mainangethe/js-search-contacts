@@ -37,14 +37,15 @@ function searchContacts() {
 
   for (i = 0; i < contacts.length; i++) {
     if (contacts[i][0].includes(searchEntry)){
+      searchResult.className ='search-result-good';
       searchResult.textContent = contacts[i][0] + contacts[i][1];
       break;
     }
     else {
+      searchResult.className ='search-result-bad';
       searchResult.textContent = `We did not find anyone with the name: '${searchEntry}'.`
     }
   }
-
   searchResult;
 }
 
