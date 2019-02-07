@@ -8,10 +8,16 @@ html {
 
 h1, h2 { font-family: 'Oswald', sans-serif; }
 
+h1 { font-size: 3em; }
+
+.header{
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
 body{
-  margin: 50px;
   position: relative;
-  top: 5%;
+  top: 2%;
   left: 35%;
 }
 
@@ -57,6 +63,7 @@ button:hover {
   font-weight: bold;
 }
 
+.search h2 { margin: 30px 0 10px 0; }
 .search-result-good {
   background-color: hsl(134, 50%, 95%);
   border-left: 5px solid hsl(134, 90%, 50%);
